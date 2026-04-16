@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Clientes</title>
+</head>
+<body>
+
+    <nav>
+        <div>
+            <a href="/">🏨 Hotel Caribe Azul</a>
+
+            <button type="button">
+                <span></span>
+            </button>
+
+            <div id="navbarNav">
+                <ul>
+                    <li>
+                        <a href="/">🏠 Cadastro</a>
+                    </li>
+                    <li>
+                        <a href="/consulta">🔍 Consultar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <h2>Consulta de Clientes</h2>
+    </div>
+    
+    <div>
+        <input type="text" id="campoBusca" placeholder="Digite o nome do cliente">
+        <button id="btnBuscar">Buscar</button>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+        
+        <tbody id="tabelaResultados"></tbody>
+        </table>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
